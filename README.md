@@ -1,3 +1,17 @@
+# For my environment
+
+## installation
+```shell
+conda create --name GazeTracking python=3.9
+conda activate GazeTracking
+pip install dlib, numpy, opencv-python
+```
+## example
+``` shell
+conda activate GazeTracking
+python example.py
+```
+
 # Gaze Tracking
 
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
@@ -16,7 +30,7 @@ _🚀 Quick note: I'm looking for job opportunities as a software developer, for
 Clone this project:
 
 ```shell
-git clone https://github.com/antoinelame/GazeTracking.git
+git clone ...
 ```
 
 ### For Pip install
@@ -29,14 +43,14 @@ pip install -r requirements.txt
 > The Dlib library has four primary prerequisites: Boost, Boost.Python, CMake and X11/XQuartx. If you doesn't have them, you can [read this article](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/) to know how to easily install them.
 
 
-### For Anaconda install
+<!-- ### For Anaconda install
 Install these dependencies (NumPy, OpenCV, Dlib):
 
 ```shell
 conda env create --file environment.yml
 #After creating environment, activate it
 conda activate GazeTracking
-```
+``` -->
 
 
 ### Verify Installation
